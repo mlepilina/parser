@@ -1,5 +1,7 @@
+from dataclasses import dataclass
 
 
+@dataclass
 class Food:
     """Данные об одном салате"""
     title: str
